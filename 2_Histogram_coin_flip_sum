@@ -1,0 +1,9 @@
+k = 1000
+n = 100
+counts = generate_counts(k=k,n=n)
+figure(figsize=[10,4])
+hist(counts);
+xlim([-k,k])
+xlabel('sum')
+title('Histogram of coin flip sum flipping a fair coin %d times '%k)
+grid()
