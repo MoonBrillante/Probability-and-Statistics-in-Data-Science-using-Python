@@ -1,0 +1,7 @@
+import matplotlib.pyplot as plt
+import matplotlib_venn as venn
+S ={1,2,3}
+T ={0,2,-1, 5}
+A ={3,4,5}
+venn.venn3([S,T,A], set_labels=('S', 'T','A'))
+plt.show()
